@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+ "scripts": {
+    "start":"node server.js",
+    "server":"nodemon -V server.js",
+    "client":"npm start --prefix client",
+    "dev": "npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "monk": "^7.1.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {}
+}
